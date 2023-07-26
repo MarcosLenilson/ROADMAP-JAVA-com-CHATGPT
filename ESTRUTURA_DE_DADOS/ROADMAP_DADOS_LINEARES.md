@@ -52,7 +52,7 @@
 
     > **Dificuldade em Retornar Arrays de Funções:** Em muitas linguagens, retornar arrays de funções pode ser complicado, pois os arrays estáticos têm escopo local e a memória alocada para eles pode ser desalocada após a saída da função
 
-  - Inserção de elementos em um array.
+  - Inserção de elementos em um array. **(RESOLVIDO)**
 
   - Remoção de elementos de um array.
 
@@ -64,7 +64,7 @@
 
 ### Exercícios
 
-1. Implemente um programa que encontre o maior elemento em um array.
+1. Implemente um programa que encontre o maior e o menor elemento em um array. **(RESOLVIDO)**
 2. Implemente um programa que verifique se um array está ordenado.
 3. Implemente um programa que insira elementos em um array dinamicamente.
 4. Implemente um programa que remova elementos de um array.
