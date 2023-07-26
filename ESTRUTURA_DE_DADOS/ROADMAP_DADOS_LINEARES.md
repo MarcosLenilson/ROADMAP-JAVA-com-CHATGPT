@@ -27,27 +27,40 @@
     > int [ ] num = {102, 56, 186, 5, 17}; >>> ARRAY JÁ COM ELEMENTOS DENTRO (INICIALIZADO)
 
   - Índices de arrays (geralmente começam em 0). **(RESOLVIDO)**
+
     > int[ ] num = new int[tamanho]; >>> ARRAY VAZIO COM ESSA INICIALIZAÇÃO
 
 - Acesso e Atualização de Elementos
 
-  - Como acessar um elemento específico do array usando o índice.
+  - Como acessar um elemento específico do array usando o índice. **(RESOLVIDO)**
 
-  - Como modificar o valor de um elemento no array.
+  - Como modificar o valor de um elemento no array. **(RESOLVIDO)**
 
 - Operações Básicas: Inserção e Remoção
 
   - Limitações dos arrays estáticos em algumas linguagens de programação.
 
+    > **Tamanho Fixo:** Arrays estáticos têm um tamanho fixo, definido no momento de sua criação.
+
+    > **Desperdício de Espaço:** Se você definir um tamanho maior do que o necessário para um array estático, poderá acabar desperdiçando espaço na memória, já que o array ocupará o espaço total reservado, mesmo que nem todos os elementos sejam usados.
+
+    > **Alocação Estática de Memória:** A memória para arrays estáticos é alocada em tempo de compilação ou antes da execução do programa, dependendo da linguagem.
+
+    > **Falta de Flexibilidade:** Arrays estáticos não permitem a inserção ou remoção eficiente de elementos em posições arbitrárias. 
+
+    > **Não Suporta Tipos Diferentes:** Em algumas linguagens, como C, os arrays estáticos são homogéneos, o que significa que todos os elementos devem ser do mesmo tipo. 
+
+    > **Dificuldade em Retornar Arrays de Funções:** Em muitas linguagens, retornar arrays de funções pode ser complicado, pois os arrays estáticos têm escopo local e a memória alocada para eles pode ser desalocada após a saída da função
+
   - Inserção de elementos em um array.
 
   - Remoção de elementos de um array.
 
-- Arrays Multidimensionais
+- Arrays Multidimensional
 
-    * Criação e manipulação de arrays bidimensionais e tridimensionais.
-    
-    * Acesso a elementos em arrays multidimensionais usando múltiplos índices.
+  - Criação e manipulação de arrays bidimensionais e tridimensionais.
+
+  - Acesso a elementos em arrays multidimensionais usando múltiplos índices.
 
 ### Exercícios
 
