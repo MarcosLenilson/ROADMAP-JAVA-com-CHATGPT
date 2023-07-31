@@ -65,9 +65,9 @@
 ### Exercícios
 
 1. Implemente um programa que encontre o maior e o menor elemento em um array. **(RESOLVIDO)**
-2. Implemente um programa que verifique se um array está ordenado.
-3. Implemente um programa que insira elementos em um array dinamicamente.
-4. Implemente um programa que remova elementos de um array.
+2. Implemente um programa que verifique se um array está ordenado. **(RESOLVIDO)**
+3. Implemente um programa que insira elementos em um array dinamicamente.**(RESOLVIDO)**
+4. Implemente um programa que remova elementos de um array. **(RESOLVIDO)**
 
 ## Etapa 3: Listas Ligadas
 

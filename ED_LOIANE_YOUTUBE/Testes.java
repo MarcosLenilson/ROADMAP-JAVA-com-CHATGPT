@@ -35,7 +35,7 @@ public class Testes {
 
     // @ Função que retorna um booleano True caso consiga adicionar mais elementos no vetor ou False caso não
     public boolean adiciona(String elemento) {
-
+    aumentaCapacidade();
         if (this.tamanho < this.elementos.length) {
             this.elementos[this.tamanho] = elemento;
             this.tamanho++;
@@ -49,7 +49,7 @@ public class Testes {
     // B C E F G + + 
     // @ MÉTODO ADICIONAR ELEMENTO EM QQ LUGAR DO VETOR
     public boolean adiciona(int posicao, String elemento){
-        
+        aumentaCapacidade();
         if(!(posicao >= 0 && posicao < tamanho)){ // @ Verifica se a posição que o usuário esta passando é uma posição válida 
             throw new IllegalArgumentException("Posição Inválida");
         } 
@@ -64,25 +64,53 @@ public class Testes {
         return false;        
     }
 
+    // @ AUMENTAR A CAPACIDADE DO VETOR
+    private void aumentaCapacidade(){
+        if (this.tamanho == this.elementos.length){
+            String[] elementosNovos = new String[this.elementos.length * 2]; // @ Dobrando a capacidade do vetor
+            for(int i = 0; i < this.elementos.length; i++){
+                elementosNovos[i] = this.elementos[i];
+            }
+            this.elementos = elementosNovos;
+
+        }
+    }
 
 
-    // @ MÉTODO DE BUSCA
-    // public String busca(int posicao){
-    //     if(!(posicao >= 0 && posicao < tamanho)){
-    //         throw new IllegalArgumentException("Posição Inválida");
-    //     } 
-    //     return  this.elementos[posicao];
-    // }
+    // B G D E F => posição a ser removida = 1 (G)
+    // 0 1 2 3 4 => tamanho = 5
+    // vetor[1] = vetor[2]
+    // vetor[2] = vetor[3]
+    // vetor[3] = vetor[4]
+    // @ MÉTODO PARA REMOVER ELEMENTO DO VETOR
+    public void remove(int posicao){
+        if(!(posicao >= 0 && posicao < tamanho)){ // @ Verifica se a posição que o usuário esta passando é uma posição válida 
+            throw new IllegalArgumentException("Posição Inválida");
+        } 
+        for(int i = posicao; i < this.tamanho - 1; i++ ){
+            this.elementos[i] = this.elementos[i + 1];
+        }
+        this.tamanho--;
+    }
+
+
+    // @ MÉTODO DE BUSCA DE ELEMENTO DO VETOR
+    public String busca(int posicao){
+        if(!(posicao >= 0 && posicao < tamanho)){
+            throw new IllegalArgumentException("Posição Inválida");
+        } 
+        return  this.elementos[posicao];
+    }
 
     // @ MÉTODO SE EXISTE
-    // public int busca(String elemento){
-    //     for(int i = 0; i < this.tamanho; i++){
-    //         if(this.elementos[i].equals(elemento)){
-    //             return i; // @ Retorna o próprio elemento
-    //         }
-    //     }
-    //     return -1; // @ Retorno de um valor que não existe
-    // }     
+    public int busca(String elemento){
+        for(int i = 0; i < this.tamanho; i++){
+            if(this.elementos[i].equals(elemento)){
+                return i; // @ Retorna o próprio elemento
+            }
+        }
+        return -1; // @ Retorno de um valor que não existe
+    }     
 
 
 
