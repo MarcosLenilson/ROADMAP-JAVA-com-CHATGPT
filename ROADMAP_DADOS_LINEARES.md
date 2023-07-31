@@ -54,7 +54,7 @@
 
   - Inserção de elementos em um array. **(RESOLVIDO)**
 
-  - Remoção de elementos de um array.
+  - Remoção de elementos de um array. **(RESOLVIDO)**
 
 - Arrays Multidimensional
 
