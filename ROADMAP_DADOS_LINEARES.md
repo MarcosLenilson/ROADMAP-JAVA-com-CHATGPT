@@ -58,9 +58,9 @@
 
 - Arrays Multidimensional
 
-  - Criação e manipulação de arrays bidimensionais e tridimensionais.
+  - Criação e manipulação de arrays bidimensionais e tridimensionais. **(RESOLVIDO)**
 
-  - Acesso a elementos em arrays multidimensionais usando múltiplos índices.
+  - Acesso a elementos em arrays multidimensionais usando múltiplos índices. **(RESOLVIDO)**
 
 ### Exercícios
 
@@ -68,6 +68,7 @@
 2. Implemente um programa que verifique se um array está ordenado. **(RESOLVIDO)**
 3. Implemente um programa que insira elementos em um array dinamicamente.**(RESOLVIDO)**
 4. Implemente um programa que remova elementos de um array. **(RESOLVIDO)**
+5. Gere e Imprima uma matriz M 4x4 com valores aleatórios entre 0 - 9. Apos, determine o maior numero da matriz e a sua posição (linha, coluna). **(RESOLVIDO Exercicio_01)**
 
 ## Etapa 3: Listas Ligadas
 
