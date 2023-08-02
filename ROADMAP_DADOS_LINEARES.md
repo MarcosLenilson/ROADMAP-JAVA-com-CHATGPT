@@ -14,31 +14,31 @@
 
 ## Etapa 2: Arrays
 
-- Declaração e Inicialização de Arrays
+#### Declaração e Inicialização de Arrays
 
-  - Sintaxe para declarar um array. **(RESOLVIDO)**
+  * Sintaxe para declarar um array. **(RESOLVIDO)**
 
     > int n1, n2, n3, n4, n5;
 
     > final int tamanho = 5; >>> DEFINIÇÂO DE CONTANTE
 
-  - Como inicializar um array com valores. **(RESOLVIDO)**
+  * Como inicializar um array com valores. **(RESOLVIDO)**
 
     > int [ ] num = {102, 56, 186, 5, 17}; >>> ARRAY JÁ COM ELEMENTOS DENTRO (INICIALIZADO)
 
-  - Índices de arrays (geralmente começam em 0). **(RESOLVIDO)**
+  * Índices de arrays (geralmente começam em 0). **(RESOLVIDO)**
 
     > int[ ] num = new int[tamanho]; >>> ARRAY VAZIO COM ESSA INICIALIZAÇÃO
 
-- Acesso e Atualização de Elementos
+#### Acesso e Atualização de Elementos
 
-  - Como acessar um elemento específico do array usando o índice. **(RESOLVIDO)**
+  * Como acessar um elemento específico do array usando o índice. **(RESOLVIDO)**
 
-  - Como modificar o valor de um elemento no array. **(RESOLVIDO)**
+  * Como modificar o valor de um elemento no array. **(RESOLVIDO)**
 
-- Operações Básicas: Inserção e Remoção
+#### Operações Básicas: Inserção e Remoção
 
-  - Limitações dos arrays estáticos em algumas linguagens de programação.
+  * Limitações dos arrays estáticos em algumas linguagens de programação.
 
     > **Tamanho Fixo:** Arrays estáticos têm um tamanho fixo, definido no momento de sua criação.
 
@@ -52,37 +52,81 @@
 
     > **Dificuldade em Retornar Arrays de Funções:** Em muitas linguagens, retornar arrays de funções pode ser complicado, pois os arrays estáticos têm escopo local e a memória alocada para eles pode ser desalocada após a saída da função
 
-  - Inserção de elementos em um array. **(RESOLVIDO)**
+  * Inserção de elementos em um array. **(RESOLVIDO)**
 
-  - Remoção de elementos de um array. **(RESOLVIDO)**
+  * Remoção de elementos de um array. **(RESOLVIDO)**
 
-- Arrays Multidimensional
+#### Arrays Multidimensional
 
-  - Criação e manipulação de arrays bidimensionais e tridimensionais. **(RESOLVIDO)**
+  * Criação e manipulação de arrays bidimensionais e tridimensionais. **(RESOLVIDO)**
 
-  - Acesso a elementos em arrays multidimensionais usando múltiplos índices. **(RESOLVIDO)**
+  * Acesso a elementos em arrays multidimensionais usando múltiplos índices. **(RESOLVIDO)**
 
 ### Exercícios
 
-1. Implemente um programa que encontre o maior e o menor elemento em um array. **(RESOLVIDO)**
-2. Implemente um programa que verifique se um array está ordenado. **(RESOLVIDO)**
-3. Implemente um programa que insira elementos em um array dinamicamente.**(RESOLVIDO)**
-4. Implemente um programa que remova elementos de um array. **(RESOLVIDO)**
-5. Gere e Imprima uma matriz M 4x4 com valores aleatórios entre 0 - 9. Apos, determine o maior numero da matriz e a sua posição (linha, coluna). **(RESOLVIDO Exercicio_01)**
+#### Implemente um programa que encontre o maior e o menor elemento em um array. **(RESOLVIDO)**
+#### Implemente um programa que verifique se um array está ordenado. **(RESOLVIDO)**
+#### Implemente um programa que insira elementos em um array dinamicamente.**(RESOLVIDO)**
+#### Implemente um programa que remova elementos de um array. **(RESOLVIDO)**
+#### Gere e Imprima uma matriz M 4x4 com valores aleatórios entre 0 - 9. Apos, determine o maior numero da matriz e a sua posição (linha, coluna). **(RESOLVIDO Exercicio_01)**
 
 ## Etapa 3: Listas Ligadas
 
-- Conceito de Listas Ligadas
-- Listas Simplesmente Ligadas
-- Listas Duplamente Ligadas
-- Inserção e Remoção em Listas
-- Operações: Busca, Tamanho, Concatenação
+#### Conceito de Listas Ligadas:
+
+  * Entendimento de como as listas ligadas são estruturadas.
+  * Compreensão dos nós e dos ponteiros que conectam os elementos.
+
+#### Listas Simplesmente Ligadas:
+
+  * Criação e manipulação de listas ligadas com um único ponteiro por nó.
+  * Inserção e remoção de elementos em várias posições.
+
+#### Listas Duplamente Ligadas:
+
+  * Entendimento de listas ligadas com ponteiros para o próximo e o anterior.
+  * Vantagens e desvantagens das listas duplamente ligadas.
+  
+#### Inserção e Remoção em Listas:
+
+  * Algoritmos para inserção no início, meio e final da lista.
+  * Algoritmos para remoção de elementos.
+
+#### Operações: Busca, Tamanho, Concatenação:
+
+  * Como buscar um elemento específico em uma lista ligada.
+  * Como determinar o tamanho (número de elementos) de uma lista.
+  * Como concatenar duas listas ligadas.
+
+### Exercícios:
+
+#### 1. Implemente uma lista ligada simples:
+
+  * Crie uma lista ligada com operações de inserção no início e remoção no início.
+  * Implemente a função de busca para encontrar um elemento na lista.
+
+#### 2. Implemente uma lista duplamente ligada:
+
+  * Crie uma lista ligada duplamente ligada com operações de inserção e remoção.
+  * Realize testes para garantir que os ponteiros para o próximo e o anterior estejam corretamente configurados.
+
+#### 3. Realize operações de busca e tamanho:
+
+  * Escreva funções para buscar um elemento específico na lista.
+  * Implemente uma função para determinar o tamanho da lista.
+
+
 
 ### Exercícios
 
-- Implemente uma lista simplesmente ligada e suas operações básicas.
-- Implemente a remoção de um elemento específico em uma lista duplamente ligada.
+* Implemente uma lista simplesmente ligada e suas operações básicas.
+* Implemente a remoção de um elemento específico em uma lista duplamente ligada.
 
+--- 
+---
+---
+---
+---
 ## Etapa 4: Pilhas
 
 - Conceito de Pilhas
