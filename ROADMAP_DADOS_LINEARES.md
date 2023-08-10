@@ -64,11 +64,11 @@
 
 ### Exercícios
 
-#### Implemente um programa que encontre o maior e o menor elemento em um array. **(RESOLVIDO)**
-#### Implemente um programa que verifique se um array está ordenado. **(RESOLVIDO)**
-#### Implemente um programa que insira elementos em um array dinamicamente.**(RESOLVIDO)**
-#### Implemente um programa que remova elementos de um array. **(RESOLVIDO)**
-#### Gere e Imprima uma matriz M 4x4 com valores aleatórios entre 0 - 9. Apos, determine o maior numero da matriz e a sua posição (linha, coluna). **(RESOLVIDO Exercicio_01)**
+01. Implemente um programa que encontre o maior e o menor elemento em um array. **(RESOLVIDO)**
+02. Implemente um programa que verifique se um array está ordenado. **(RESOLVIDO)**
+03. Implemente um programa que insira elementos em um array dinamicamente.**(RESOLVIDO)**
+04. Implemente um programa que remova elementos de um array. **(RESOLVIDO)**
+05. Gere e Imprima uma matriz M 4x4 com valores aleatórios entre 0 - 9. Apos, determine o maior numero da matriz e a sua posição (linha, coluna). **(RESOLVIDO Exercicio_01)**
 
 ## Etapa 3: Listas Ligadas
 
